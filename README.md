@@ -17,8 +17,10 @@ cd ~/xud-box
 `./xud-box-ssh.sh`
 
 ### Test the setup
-`source ~/xud-simnet/setup.bash`
-`xucli getorders`
+```
+source ~/xud-simnet/setup.bash
+xucli getorders
+```
 
 ## Dependencies
 * [virtualbox](https://www.virtualbox.org)
