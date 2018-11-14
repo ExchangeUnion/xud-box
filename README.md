@@ -3,7 +3,7 @@ Launch a fresh/new xud-simnet instance with 1 command.
 
 ## Install
 Clone the repository.
-`git clone <REPO_URL> ~/xud-box`
+`git clone https://github.com/ExchangeUnion/xud-box.git ~/xud-box`
 
 ## Usage
 ```
