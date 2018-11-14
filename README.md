@@ -7,11 +7,11 @@ Clone the repository.
 
 ## Usage
 
-## Dependencies
+### Install Dependencies
 * [virtualbox](https://www.virtualbox.org)
 * [vagrant](https://www.vagrantup.com)
 
-### Create machine
+### Create Machine
 ```
 cd ~/xud-box
 ./xud-box-up.sh
@@ -22,6 +22,5 @@ cd ~/xud-box
 
 ### Test the setup
 ```
-source ~/xud-simnet/setup.bash
 xucli getorders
 ```

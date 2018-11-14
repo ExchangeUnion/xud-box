@@ -34,6 +34,7 @@ Vagrant.configure("2") do |config|
   echo NODE: $(node --version)
   go version
   git clone https://github.com/ExchangeUnion/xud-simnet.git $HOME/xud-simnet
+  echo "source ~/xud-simnet/setup.bash" >> ~/.bashrc
   source $HOME/xud-simnet/setup.bash
   xud-simnet-install
   xud-simnet-start
