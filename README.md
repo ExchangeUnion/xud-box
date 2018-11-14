@@ -24,3 +24,8 @@ cd ~/xud-box
 ```
 xucli getorders
 ```
+
+### Destroy Machine
+```
+./xud-box-destroy.sh
+```
