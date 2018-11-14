@@ -14,7 +14,11 @@ cd ~/xud-box
 ```
 
 ### SSH into the machine
-`vagrant ssh`
+`./xud-box-ssh.sh`
+
+### Test the setup
+`source ~/xud-simnet/setup.bash`
+`xucli getorders`
 
 ## Dependencies
 * [virtualbox](https://www.virtualbox.org)
