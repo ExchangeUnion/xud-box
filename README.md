@@ -10,7 +10,7 @@ Clone the repository.
 ### Create machine
 ```
 cd ~/xud-box
-vagrant up
+./xud-box-up.sh
 ```
 
 ### SSH into the machine
