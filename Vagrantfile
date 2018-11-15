@@ -38,6 +38,7 @@ Vagrant.configure("2") do |config|
   source $HOME/xud-simnet/setup.bash
   xud-simnet-install
   xud-simnet-start
+  xud-simnet-channels
   SCRIPT
 
   config.vm.provision "shell", inline: $userScript, privileged: false
