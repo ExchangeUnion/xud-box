@@ -22,6 +22,9 @@ cd ~/xud-box
 
 ### Test the setup
 ```
+xucli getinfo
+xucli listpeers
+xucli channelbalance
 xucli getorders
 ```
 
