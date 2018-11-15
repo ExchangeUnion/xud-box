@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: $rootScript
 
   $userScript = <<-SCRIPT
-  echo Home is now: "$HOME"
+  echo Home directory: "$HOME"
   wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
   export NVM_DIR="$HOME/.nvm"
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
