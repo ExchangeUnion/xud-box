@@ -32,3 +32,8 @@ xucli getorders
 ```
 ./xud-box-destroy.sh
 ```
+
+### Check Status
+```
+./xud-box-status.sh
+```
