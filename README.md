@@ -37,3 +37,8 @@ xucli getorders
 ```
 ./xud-box-status.sh
 ```
+
+### Stop/Pause the Machine
+```
+./xud-box-halt.sh
+```
