@@ -38,9 +38,9 @@ xucli getorders
 ./xud-box-status.sh
 ```
 
-### Stop/Pause the Machine
+### Pause
 ```
-./xud-box-halt.sh
+./xud-box-pause.sh
 ```
 
 ### Resume
