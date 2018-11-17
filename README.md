@@ -42,3 +42,8 @@ xucli getorders
 ```
 ./xud-box-halt.sh
 ```
+
+### Resume
+```
+./xud-box-resume.sh
+```
