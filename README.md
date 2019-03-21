@@ -47,3 +47,8 @@ xucli getorders
 ```
 ./xud-box-resume.sh
 ```
+
+### Save box state
+```
+./xud-box-snapshot.sh
+```
