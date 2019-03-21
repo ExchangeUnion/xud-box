@@ -50,5 +50,15 @@ xucli getorders
 
 ### Save box state
 ```
-./xud-box-snapshot.sh
+./snapshot.sh
+```
+
+### List saved states
+```
+./list-snapshots.sh
+```
+
+### Restore state
+```
+./restore.sh <name>
 ```
