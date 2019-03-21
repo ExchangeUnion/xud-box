@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
   apt upgrade -yq
   apt-get install build-essential automake pkg-config libtool libffi-dev libgmp-dev golang-1.10-go -y
   ln -s /usr/lib/go-1.10/bin/go /usr/local/bin/go
-  apt install python python3.7 -y
+  apt install python python3.7 python3.7-dev -y
   snap install solc
   SCRIPT
 
