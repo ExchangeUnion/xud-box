@@ -3,21 +3,23 @@
 Vagrant.configure("2") do |config|
   config.vm.synced_folder '.', '/vagrant', disabled: true
   config.vm.box = "ubuntu/xenial64"
-  config.vm.network "public_network"
+  # config.vm.network "public_network"
 
   config.vm.provider "virtualbox" do |vb|
-    vb.memory = "2048"
+    vb.memory = "4096"
   end
 
   $rootScript = <<-SCRIPT
-  echo Building box...
-  apt update -y
   export DEBIAN_FRONTEND=noninteractive
+  echo Building box...
+  add-apt-repository ppa:deadsnakes/ppa -y
+  add-apt-repository ppa:ethereum/ethereum -y
+  apt update -yq
   apt upgrade -yq
-  apt install make -y
-  apt install python -y
-  apt-get install golang-1.10-go -y
+  apt-get install build-essential automake pkg-config libtool libffi-dev libgmp-dev golang-1.10-go -y
   ln -s /usr/lib/go-1.10/bin/go /usr/local/bin/go
+  apt install python python3.7 -y
+  snap install solc
   SCRIPT
 
   config.vm.provision "shell", inline: $rootScript
