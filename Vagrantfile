@@ -35,6 +35,9 @@ Vagrant.configure("2") do |config|
   echo NPM: $(npm --version)
   echo NODE: $(node --version)
   go version
+  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  python3.7 get-pip.py --user
+  pip3.7 install --user virtualenv
   git clone https://github.com/ExchangeUnion/xud-simnet.git $HOME/xud-simnet
   echo "source ~/xud-simnet/setup.bash" >> ~/.bashrc
   source $HOME/xud-simnet/setup.bash
