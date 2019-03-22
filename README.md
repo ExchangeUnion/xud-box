@@ -1,5 +1,5 @@
 # xud-box
-Launch a fresh/new xud-simnet instance with 1 command.
+Builds a machine that has necessary system dependencies to run [xud-simnet](https://github.com/ExchangeUnion/xud-simnet).
 
 ## Install
 Clone the repository.
@@ -14,11 +14,11 @@ Clone the repository.
 ### Create Machine
 ```
 cd ~/xud-box
-./xud-box-up.sh
+./up.sh
 ```
 
 ### SSH into the machine
-`./xud-box-ssh.sh`
+`./ssh.sh`
 
 ### Test the setup
 ```
@@ -30,20 +30,35 @@ xucli getorders
 
 ### Destroy Machine
 ```
-./xud-box-destroy.sh
+./destroy.sh
 ```
 
 ### Check Status
 ```
-./xud-box-status.sh
+./status.sh
 ```
 
 ### Pause
 ```
-./xud-box-pause.sh
+./pause.sh
 ```
 
 ### Resume
 ```
-./xud-box-resume.sh
+./resume.sh
+```
+
+### Save box state
+```
+./snapshot.sh
+```
+
+### List saved states
+```
+./list-snapshots.sh
+```
+
+### Restore state
+```
+./restore.sh <name>
 ```

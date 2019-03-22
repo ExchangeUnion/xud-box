@@ -1,3 +1,3 @@
 #!/bin/bash
 ./check-deps.sh
-vagrant up
+vagrant snapshot list
