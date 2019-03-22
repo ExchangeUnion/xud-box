@@ -14,11 +14,11 @@ Clone the repository.
 ### Create Machine
 ```
 cd ~/xud-box
-./xud-box-up.sh
+./up.sh
 ```
 
 ### SSH into the machine
-`./xud-box-ssh.sh`
+`./ssh.sh`
 
 ### Test the setup
 ```
@@ -30,22 +30,22 @@ xucli getorders
 
 ### Destroy Machine
 ```
-./xud-box-destroy.sh
+./destroy.sh
 ```
 
 ### Check Status
 ```
-./xud-box-status.sh
+./status.sh
 ```
 
 ### Pause
 ```
-./xud-box-pause.sh
+./pause.sh
 ```
 
 ### Resume
 ```
-./xud-box-resume.sh
+./resume.sh
 ```
 
 ### Save box state
