@@ -1,5 +1,5 @@
 # xud-box
-Launch a fresh/new xud-simnet instance with 1 command.
+Builds a machine that has necessary system dependencies to run [xud-simnet](https://github.com/ExchangeUnion/xud-simnet).
 
 ## Install
 Clone the repository.
